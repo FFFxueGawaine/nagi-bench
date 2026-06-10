@@ -1,5 +1,16 @@
 {
   "label": "MiniMax M3",
   "vendor": "MiniMax",
-  "order": 110
+  "order": 110,
+  "harness": "MiniMax Code Web",
+  "effort": "Thinking",
+  "runs": {
+    "pelican-cycling": {
+      "note": {
+        "zh": "在 MiniMax Code 网页版以 MiniMax M3（开启思考模式 Thinking）一次生成。",
+        "en": "Generated in one shot by MiniMax M3 (Thinking mode on) in the MiniMax Code web app."
+      },
+      "contributor": "Nagi-ovo"
+    }
+  }
 }

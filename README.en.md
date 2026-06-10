@@ -17,19 +17,21 @@ One-shot LLM eval cases by NAGI STUDIO: same prompt, different model x harness x
 | Model | Vendor | Harness | Effort | Runs |
 |---|---|---|---|---|
 | Claude Fable 5 | Anthropic | Claude Web App | Max | 02 |
-| Claude Fable 5 | Anthropic | Claude Code | Max | 01 |
+| Claude Fable 5 | Anthropic | Claude Code | Max | 02 |
 | GPT-5.5 Pro | OpenAI | ChatGPT Web | Extended Pro | 02 |
 | GPT-5.5 | OpenAI | Codex CLI (no skills) | xhigh | 02 |
 | Gemini 3.1 Pro | Google | AntiGravity | High | 03 |
 | Gemini 3.5 Flash | Google | AntiGravity | High | 03 |
-| Grok Build | xAI | Grok Build TUI (local) | Max | 01 |
+| Grok Build | xAI | Grok Build TUI (local) | Max | 02 |
 | Composer 2.5 | Cursor | Cursor | Max | 01 |
 | DeepSeek-V4-Pro | DeepSeek | Claude Code | Max | 02 |
 | Doubao Seed 2.0 Pro | ByteDance | Doubao Web | Pro Mode | 01 |
 | Doubao Seed 2.0 Mini | ByteDance | Doubao Web | Fast Mode | 01 |
 | MiMo v2.5 Pro | Xiaomi | Claude Code | Max | 02 |
+| Kimi K2.6 | Moonshot AI | Kimi Code (local) | Default | 01 |
+| MiniMax M3 | MiniMax | MiniMax Code Web | Thinking | 01 |
 
-Pending: Mistral Medium 3.5 · Kimi K2.6 · MiniMax M3 · GLM-5.1 · Qwen3.7-Max (PRs welcome)
+Pending: Mistral Medium 3.5 · GLM-5.1 · Qwen3.7-Max (PRs welcome)
 
 > This table is a hand-maintained snapshot; the site's registry section is generated live from `models/*.json` and is authoritative.
 

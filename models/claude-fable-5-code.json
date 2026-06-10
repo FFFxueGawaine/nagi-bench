@@ -11,6 +11,13 @@
         "en": "Generated in one shot by Claude Fable 5 (Max effort) inside Claude Code; this page is the unmodified original output. Same model as the Claude Web App entry but a different harness — compare the two tabs to see how the environment shapes the result."
       },
       "contributor": "Nagi-ovo"
+    },
+    "pelican-cycling": {
+      "note": {
+        "zh": "在 Claude Code 中以 Claude Fable 5（Max 思考配额）一次生成。",
+        "en": "Generated in one shot by Claude Fable 5 (Max effort) inside Claude Code."
+      },
+      "contributor": "Nagi-ovo"
     }
   }
 }

@@ -11,6 +11,13 @@
         "en": "Built locally with the Grok Build TUI; fixed build (3 lines changed). Bug 1: line 82 const WORLD_SEED = 0xAETHER — T/H/R are not hex digits, so the whole script threw a SyntaxError at parse time; before the fix the screen was pure black with only HTML text. Bug 2: the atlas is drawn in the top canvas rows with top-left-origin UVs but no flipY=false, so every face sampled the undrawn black region; before the fix nearby terrain rendered solid black. Bug 3: the forward vector already points where the camera looks, but W subtracted and S added — W walked backward (A/D were fine). One line each; everything else is Grok as-is."
       },
       "contributor": "Nagi-ovo"
+    },
+    "pelican-cycling": {
+      "note": {
+        "zh": "在本地通过 Grok Build（TUI）一次生成。",
+        "en": "Generated in one shot locally via the Grok Build TUI."
+      },
+      "contributor": "Nagi-ovo"
     }
   }
 }

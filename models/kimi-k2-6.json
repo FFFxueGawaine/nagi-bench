@@ -1,5 +1,16 @@
 {
   "label": "Kimi K2.6",
   "vendor": "Moonshot AI",
-  "order": 100
+  "order": 100,
+  "harness": "Kimi Code",
+  "effort": "Default",
+  "runs": {
+    "pelican-cycling": {
+      "note": {
+        "zh": "在本地以 Kimi Code（harness）运行 Kimi K2.6 一次生成。",
+        "en": "Generated in one shot by Kimi K2.6 running locally in Kimi Code."
+      },
+      "contributor": "Nagi-ovo"
+    }
+  }
 }

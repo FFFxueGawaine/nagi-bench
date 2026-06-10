@@ -17,19 +17,21 @@ NAGI STUDIO 的 LLM 测评案例集：同一段提示词，不同「模型 × Ha
 | 模型 | 厂商 | Harness 环境 | 思考配额 | 产出 |
 |---|---|---|---|---|
 | Claude Fable 5 | Anthropic | Claude 网页版 | Max | 02 |
-| Claude Fable 5 | Anthropic | Claude Code | Max | 01 |
+| Claude Fable 5 | Anthropic | Claude Code | Max | 02 |
 | GPT-5.5 Pro | OpenAI | ChatGPT 网页版 | Extended Pro | 02 |
 | GPT-5.5 | OpenAI | Codex CLI（无 skill） | xhigh | 02 |
 | Gemini 3.1 Pro | Google | AntiGravity | High | 03 |
 | Gemini 3.5 Flash | Google | AntiGravity | High | 03 |
-| Grok Build | xAI | Grok Build TUI（本地） | Max | 01 |
+| Grok Build | xAI | Grok Build TUI（本地） | Max | 02 |
 | Composer 2.5 | Cursor | Cursor | Max | 01 |
 | DeepSeek-V4-Pro | DeepSeek | Claude Code | Max | 02 |
 | Doubao Seed 2.0 Pro | ByteDance | 豆包网页版 | 超能模式 | 01 |
 | Doubao Seed 2.0 Mini | ByteDance | 豆包网页版 | 快速模式 | 01 |
 | MiMo v2.5 Pro | Xiaomi | Claude Code | Max | 02 |
+| Kimi K2.6 | Moonshot AI | Kimi Code（本地） | Default | 01 |
+| MiniMax M3 | MiniMax | MiniMax Code 网页版 | Thinking | 01 |
 
-待测：Mistral Medium 3.5 · Kimi K2.6 · MiniMax M3 · GLM-5.1 · Qwen3.7-Max（欢迎 PR 补充）
+待测：Mistral Medium 3.5 · GLM-5.1 · Qwen3.7-Max（欢迎 PR 补充）
 
 > 此表为人工维护的快照；站点上的「模型阵容」表由 `models/*.json` 实时生成，以站点为准。
 

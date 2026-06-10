@@ -17,6 +17,7 @@ One-shot LLM eval cases by NAGI STUDIO: same prompt, different model x harness x
 | Model | Vendor | Harness | Effort | Runs |
 |---|---|---|---|---|
 | Claude Fable 5 | Anthropic | Claude Web App | Max | 02 |
+| Claude Fable 5 | Anthropic | Claude Code | Max | 01 |
 | GPT-5.5 Pro | OpenAI | ChatGPT Web | Extended Pro | 02 |
 | GPT-5.5 | OpenAI | Codex CLI (no skills) | xhigh | 02 |
 | Gemini 3.1 Pro | Google | AntiGravity | High | 03 |

@@ -1,0 +1,16 @@
+{
+  "label": "Claude Fable 5",
+  "vendor": "Anthropic",
+  "harness": "Claude Code",
+  "effort": "Max",
+  "order": 12,
+  "runs": {
+    "mythos-craft": {
+      "note": {
+        "zh": "在 Claude Code 中以 Claude Fable 5（Max 思考配额）一次生成，本页为未经修改的原始产出。与「Claude 网页版」条目同模型、不同 Harness——两个标签页并排即可对比同一模型在不同运行环境下的差异。",
+        "en": "Generated in one shot by Claude Fable 5 (Max effort) inside Claude Code; this page is the unmodified original output. Same model as the Claude Web App entry but a different harness — compare the two tabs to see how the environment shapes the result."
+      },
+      "contributor": "Nagi-ovo"
+    }
+  }
+}

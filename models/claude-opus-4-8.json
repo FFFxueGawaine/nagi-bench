@@ -1,5 +1,14 @@
 {
   "label": "Claude Opus 4.8",
   "vendor": "Anthropic",
-  "order": 15
+  "order": 15,
+  "runs": {
+    "pelican-cycling": {
+      "note": {
+        "zh": "以 Claude Opus 4.8 一次生成；运行环境与思考档位待维护者补充。",
+        "en": "Generated in one shot by Claude Opus 4.8; harness and effort level to be confirmed by the maintainer."
+      },
+      "contributor": "Nagi-ovo"
+    }
+  }
 }

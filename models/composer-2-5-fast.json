@@ -2,20 +2,20 @@
   "label": "Composer 2.5",
   "vendor": "Cursor",
   "harness": "Cursor",
-  "effort": "Fast",
+  "effort": "Default",
   "order": 71,
   "runs": {
     "mythos-craft": {
       "note": {
-        "zh": "在 Cursor 中以 Composer 2.5（Fast 模式）一次生成，本页为未经修改的原始产出。与同为 Cursor 的 Max 条目并排，即可对比同一模型在不同思考配额下的差异。",
-        "en": "Generated in one shot by Composer 2.5 (Fast mode) inside Cursor; this page is the unmodified original output. Sits next to the Max entry on the same Cursor harness — compare the two to see how the thinking budget shapes the result."
+        "zh": "在 Cursor 中以 Composer 2.5 一次生成，本页为未经修改的原始产出。",
+        "en": "Generated in one shot by Composer 2.5 inside Cursor; this page is the unmodified original output."
       },
       "contributor": "Mist-wu"
     },
     "pelican-cycling": {
       "note": {
-        "zh": "在 Cursor 中以 Composer 2.5（Fast 模式）一次生成。",
-        "en": "Generated in one shot by Composer 2.5 (Fast mode) inside Cursor."
+        "zh": "在 Cursor 中以 Composer 2.5 一次生成。",
+        "en": "Generated in one shot by Composer 2.5 inside Cursor."
       },
       "contributor": "Mist-wu"
     }

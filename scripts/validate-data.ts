@@ -1,7 +1,7 @@
 // Validates the contribution data: models/<model-id>.json registrations and
 // their artifacts under outputs/. Runs in CI for every PR and push, so a
 // malformed or undocumented contribution fails before it can ship.
-import { existsSync, readFileSync, readdirSync } from 'node:fs'
+import { existsSync, readFileSync, readdirSync, statSync } from 'node:fs'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
@@ -99,8 +99,11 @@ for (const f of readdirSync(modelsDir).filter((f) => f.endsWith('.json'))) {
       seenFiles.add(file)
       const artifact = `${artifactDir}/${file}`
       declaredArtifacts.add(artifact)
-      if (!existsSync(join(outputsDir, artifactDir, file))) {
+      const artifactPath = join(outputsDir, artifactDir, file)
+      if (!existsSync(artifactPath)) {
         errors.push(`models/${f}: ${where} declared but artifact missing: outputs/${artifact}`)
+      } else if (statSync(artifactPath).size === 0) {
+        errors.push(`models/${f}: ${where} artifact is empty: outputs/${artifact}`)
       }
     })
   }

@@ -1,0 +1,17 @@
+{
+  "label": "MiniMax M2.7",
+  "vendor": "MiniMax",
+  "harness": "MiniMax Code Web",
+  "effort": "Thinking",
+  "artifactDir": "minimax-m2-7/minimax-code-web-thinking",
+  "order": 111,
+  "runs": {
+    "pelican-cycling": {
+      "note": {
+        "zh": "在 MiniMax Code 网页版以 MiniMax M2.7（开启思考模式 Thinking）一次生成。",
+        "en": "Generated in one shot by MiniMax M2.7 (Thinking mode on) in the MiniMax Code web app."
+      },
+      "contributor": "Nagi-ovo"
+    }
+  }
+}

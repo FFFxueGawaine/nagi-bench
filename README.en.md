@@ -34,7 +34,7 @@ One-shot LLM eval cases by NAGI STUDIO: same prompt, different model x harness x
 | Claude Sonnet 4.6 | Anthropic | Cursor · High | 01 |
 | GPT-5.5 Pro | OpenAI | ChatGPT Web · Extended Pro | 02 |
 | GPT-5.5 | OpenAI | Codex CLI · xhigh | 02 |
-| GPT-5.4 | OpenAI | Cursor · xhigh | 02 |
+| GPT-5.4 | OpenAI | Cursor · xhigh<br>Codex CLI · xhigh | 04 |
 | GPT-5.3 Codex | OpenAI | Cursor · xhigh | 02 |
 | GPT-5.2 | OpenAI | Cursor · xhigh | 02 |
 | Gemini 3.1 Pro | Google | AntiGravity · High<br>Cursor · Default<br>Google AI Studio · High | 04 |

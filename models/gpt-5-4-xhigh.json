@@ -1,0 +1,27 @@
+{
+  "label": "GPT-5.4",
+  "vendor": "OpenAI",
+  "harness": "Codex CLI",
+  "effort": "xhigh",
+  "artifactDir": "gpt-5-4/codex-xhigh",
+  "order": 31.5,
+  "runs": {
+    "pelican-cycling": [
+      {
+        "note": {
+          "zh": "在 Codex CLI 中以 GPT-5.4（xhigh 思考配额）一次生成；本页为未经修改的原始产出。",
+          "en": "Generated in one shot by GPT-5.4 (xhigh effort) inside Codex CLI; unmodified original output."
+        },
+        "contributor": "Nagi-ovo"
+      },
+      {
+        "file": "pelican-cycling-2.svg",
+        "note": {
+          "zh": "在 Codex CLI 中以 GPT-5.4（xhigh 思考配额）一次生成的第二个 SVG 版本；本页为未经修改的原始产出。",
+          "en": "Second SVG variant generated in one shot by GPT-5.4 (xhigh effort) inside Codex CLI; unmodified original output."
+        },
+        "contributor": "Nagi-ovo"
+      }
+    ]
+  }
+}

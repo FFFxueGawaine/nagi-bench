@@ -1,0 +1,233 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        
+        <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#4A90E2" />
+            <stop offset="40%" stop-color="#90C3F0" />
+            <stop offset="70%" stop-color="#FFB7B2" />
+            <stop offset="100%" stop-color="#FFDAB9" />
+        </linearGradient>
+        
+        
+        <linearGradient id="seaGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#20B2AA" />
+            <stop offset="100%" stop-color="#006666" />
+        </linearGradient>
+        
+        
+        <linearGradient id="sandGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#E8C396" />
+            <stop offset="100%" stop-color="#C29B62" />
+        </linearGradient>
+        
+        
+        <radialGradient id="sunGrad" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stop-color="#FFFFFF" />
+            <stop offset="30%" stop-color="#FFD700" />
+            <stop offset="70%" stop-color="#FF8C00" stop-opacity="0.8" />
+            <stop offset="100%" stop-color="#FF8C00" stop-opacity="0" />
+        </radialGradient>
+        
+        
+        <linearGradient id="beakGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#FFD166" />
+            <stop offset="50%" stop-color="#F4A261" />
+            <stop offset="100%" stop-color="#E76F51" />
+        </linearGradient>
+        
+        
+        <linearGradient id="pouchGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#F4A261" />
+            <stop offset="70%" stop-color="#E76F51" />
+            <stop offset="100%" stop-color="#C44536" />
+        </linearGradient>
+        
+        
+        <linearGradient id="bodyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#FFFFFF" />
+            <stop offset="60%" stop-color="#F8F9FA" />
+            <stop offset="90%" stop-color="#DEE2E6" />
+            <stop offset="100%" stop-color="#ADB5BD" />
+        </linearGradient>
+    </defs>
+
+    
+    <rect width="800" height="600" fill="url(#skyGrad)" />
+    
+    
+    <circle cx="650" cy="220" r="140" fill="url(#sunGrad)" />
+    
+    
+    <path d="M80,180 Q120,150 160,180 Q210,160 240,190 Q270,220 220,230 L100,230 Q60,220 80,180 Z" fill="#FFFFFF" opacity="0.6"/>
+    <path d="M520,120 Q550,100 580,120 Q610,110 630,130 Q650,150 610,160 L540,160 Q500,150 520,120 Z" fill="#FFFFFF" opacity="0.5"/>
+    <path d="M300,100 Q330,80 360,100 Q390,90 410,110 Q420,130 380,135 L320,135 Q280,120 300,100 Z" fill="#FFFFFF" opacity="0.4"/>
+
+    
+    <path d="M0,340 Q200,335 400,340 T800,340 L800,440 L0,440 Z" fill="url(#seaGrad)" />
+    
+    
+    <g stroke="#48D1CC" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.6">
+        <path d="M50,360 Q100,355 150,360 M220,380 Q270,375 320,380 M450,355 Q500,350 550,355 M650,390 Q700,385 750,390" />
+        <path d="M120,400 Q160,395 200,400 M350,365 Q390,360 430,365 M580,375 Q620,370 660,375" stroke="#FFFFFF" opacity="0.4" />
+    </g>
+
+    
+    <path d="M0,410 Q400,380 800,420 L800,600 L0,600 Z" fill="url(#sandGrad)" />
+    
+    
+    <g fill="#A67C52" opacity="0.3">
+        <circle cx="150" cy="480" r="3" />
+        <circle cx="160" cy="485" r="2" />
+        <circle cx="680" cy="520" r="4" />
+        <circle cx="695" cy="515" r="2" />
+        <path d="M50,550 Q70,540 90,555 Q70,560 50,550 Z" />
+    </g>
+
+    
+    <ellipse cx="410" cy="555" rx="180" ry="20" fill="#8B4513" opacity="0.25" />
+
+    
+    <g id="bicycle">
+        
+        <g transform="translate(240, 470)">
+            <circle cx="0" cy="0" r="75" stroke="#2C3E50" stroke-width="14" fill="none" />
+            <circle cx="0" cy="0" r="68" stroke="#7F8C8D" stroke-width="2" fill="none" />
+            
+            <g stroke="#95A5A6" stroke-width="1.5">
+                <line x1="-68" y1="0" x2="68" y2="0" />
+                <line x1="0" y1="-68" x2="0" y2="68" />
+                <line x1="-48" y1="-48" x2="48" y2="48" />
+                <line x1="-48" y1="48" x2="48" y2="-48" />
+                <line x1="-26" y1="-63" x2="26" y2="63" />
+                <line x1="-63" y1="-26" x2="63" y2="26" />
+                <line x1="-26" y1="63" x2="26" y2="-63" />
+                <line x1="-63" y1="26" x2="63" y2="-26" />
+            </g>
+            <circle cx="0" cy="0" r="10" fill="#34495E" />
+            <circle cx="0" cy="0" r="4" fill="#BDC3C7" />
+        </g>
+
+        
+        <g transform="translate(600, 470)">
+            <circle cx="0" cy="0" r="75" stroke="#2C3E50" stroke-width="14" fill="none" />
+            <circle cx="0" cy="0" r="68" stroke="#7F8C8D" stroke-width="2" fill="none" />
+            
+            <g stroke="#95A5A6" stroke-width="1.5">
+                <line x1="-68" y1="0" x2="68" y2="0" />
+                <line x1="0" y1="-68" x2="0" y2="68" />
+                <line x1="-48" y1="-48" x2="48" y2="48" />
+                <line x1="-48" y1="48" x2="48" y2="-48" />
+                <line x1="-26" y1="-63" x2="26" y2="63" />
+                <line x1="-63" y1="-26" x2="63" y2="26" />
+                <line x1="-26" y1="63" x2="26" y2="-63" />
+                <line x1="-63" y1="26" x2="63" y2="-26" />
+            </g>
+            <circle cx="0" cy="0" r="10" fill="#34495E" />
+            <circle cx="0" cy="0" r="4" fill="#BDC3C7" />
+        </g>
+
+        
+        <path d="M240,470 L370,320 L550,320 L600,470" stroke="#C0392B" stroke-width="12" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+        <path d="M370,320 L420,470 L550,320" stroke="#C0392B" stroke-width="12" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+        <path d="M240,470 L420,470" stroke="#7F8C8D" stroke-width="8" fill="none" stroke-linecap="round"/>
+        
+        
+        <path d="M240,460 L420,460 M240,480 L420,480" stroke="#2C3E50" stroke-width="2.5" fill="none"/>
+        
+        
+        <circle cx="420" cy="470" r="28" fill="#7F8C8D" />
+        <circle cx="420" cy="470" r="22" fill="#2C3E50" />
+        <circle cx="420" cy="470" r="8" fill="#BDC3C7" />
+        
+        
+        <line x1="420" y1="470" x2="445" y2="515" stroke="#BDC3C7" stroke-width="10" stroke-linecap="round"/>
+        <rect x="425" y="510" width="40" height="12" rx="4" fill="#34495E" />
+        <rect x="430" y="508" width="30" height="16" rx="2" fill="none" stroke="#7F8C8D" stroke-width="2"/>
+
+        
+        <line x1="370" y1="320" x2="345" y2="260" stroke="#BDC3C7" stroke-width="10" stroke-linecap="round"/>
+        <path d="M310,260 Q340,250 375,260 Q390,270 365,275 L320,270 Z" fill="#2C3E50" />
+        
+        <path d="M330,270 L335,285 M355,272 L350,285" stroke="#7F8C8D" stroke-width="3" fill="none"/>
+
+        
+        <line x1="550" y1="320" x2="530" y2="240" stroke="#BDC3C7" stroke-width="10" stroke-linecap="round"/>
+        <path d="M500,240 Q540,220 560,250" stroke="#BDC3C7" stroke-width="10" fill="none" stroke-linecap="round"/>
+        <path d="M560,250 Q570,265 545,275" stroke="#2C3E50" stroke-width="12" fill="none" stroke-linecap="round"/>
+    </g>
+
+    
+    <g id="pelican">
+        
+        <path d="M370,370 L390,440 L390,470" stroke="#D35400" stroke-width="12" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+        <path d="M380,470 L410,470" stroke="#D35400" stroke-width="10" fill="none" stroke-linecap="round"/>
+        
+        
+        <path d="M260,330 Q200,340 180,380 Q230,370 270,350 Z" fill="#7F8C8D" />
+        <path d="M270,315 Q190,320 170,350 Q230,345 280,330 Z" fill="#95A5A6" />
+        <path d="M280,305 Q220,300 200,325 Q250,320 290,315 Z" fill="#BDC3C7" />
+        
+        
+        <path d="M340,230 C250,230 230,340 300,375 C350,400 420,380 440,330 C460,270 420,230 340,230 Z" fill="url(#bodyGrad)" />
+        
+        
+        <path d="M410,250 Q480,160 440,80 Q410,140 360,240 Z" fill="url(#bodyGrad)" />
+        
+        
+        <path d="M320,260 C370,260 430,310 390,370 C340,395 270,340 320,260 Z" fill="#FFFFFF" stroke="#DEE2E6" stroke-width="3"/>
+        <path d="M330,275 C370,275 410,315 380,360 C340,375 290,335 330,275 Z" fill="#F8F9FA" />
+        
+        <path d="M330,295 Q370,320 355,360 M345,285 Q385,310 370,350 M360,280 Q400,300 385,335" stroke="#DEE2E6" stroke-width="3" fill="none" stroke-linecap="round"/>
+        <path d="M380,365 Q340,400 270,385 Q320,360 360,350 Z" fill="#7F8C8D" />
+        <path d="M370,355 Q330,385 280,370 Q320,350 350,340 Z" fill="#95A5A6" />
+
+        
+        <circle cx="430" cy="70" r="35" fill="url(#bodyGrad)" />
+        
+        
+        <path d="M405,45 Q360,20 345,45 Q375,55 395,60 Z" fill="url(#bodyGrad)" />
+        <path d="M395,40 Q350,15 330,40 Q365,50 385,55 Z" fill="#E0E0E0" />
+        <path d="M415,38 Q380,10 360,30 Q390,45 405,48 Z" fill="#FFFFFF" />
+        
+        
+        <circle cx="445" cy="58" r="10" fill="#F1C40F" />
+        <circle cx="448" cy="58" r="5" fill="#2C3E50" />
+        <circle cx="450" cy="55" r="2" fill="#FFFFFF" />
+        
+        <path d="M435,50 Q445,45 455,50" stroke="#E76F51" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+        
+        <path d="M460,65 Q570,60 630,105 Q550,90 455,85 Z" fill="url(#beakGrad)" />
+        
+        <path d="M465,70 Q560,70 610,100" stroke="#FFFFFF" stroke-width="1.5" fill="none" opacity="0.6"/>
+        
+        
+        <path d="M450,85 Q530,180 630,105 Q550,100 455,85 Z" fill="url(#pouchGrad)" opacity="0.95"/>
+        
+        <g stroke="#C44536" stroke-width="1.5" fill="none" opacity="0.4">
+            <path d="M465,95 Q520,155 600,105" />
+            <path d="M475,105 Q520,145 580,105" />
+            <path d="M485,115 Q520,135 550,105" />
+            <path d="M460,90 Q480,130 510,155" />
+            <path d="M490,90 Q510,120 540,140" />
+        </g>
+        
+        
+        <path d="M390,370 L415,445 L435,510" stroke="#E67E22" stroke-width="14" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+        <path d="M425,515 L455,515" stroke="#E67E22" stroke-width="12" fill="none" stroke-linecap="round"/>
+        
+        <path d="M435,515 L465,522 M435,515 L460,510" stroke="#D35400" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+        
+        <path d="M390,270 Q470,260 535,250" stroke="url(#bodyGrad)" stroke-width="24" fill="none" stroke-linecap="round"/>
+        
+        <path d="M520,240 Q545,245 555,265" stroke="#ADB5BD" stroke-width="10" fill="none" stroke-linecap="round"/>
+        <path d="M525,245 Q550,250 550,270" stroke="#6C757D" stroke-width="6" fill="none" stroke-linecap="round"/>
+    </g>
+    
+    
+    <g stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.5">
+        <path d="M200,500 L160,505 M220,520 L170,525 M180,480 L140,485" />
+        <path d="M680,200 Q720,190 750,200 M650,150 Q700,140 730,150" opacity="0.3"/>
+    </g>
+</svg>
